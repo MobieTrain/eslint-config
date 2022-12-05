@@ -1,6 +1,6 @@
 {
   "name": "@mobietrain/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sharable eslint configuration",
   "main": "index.js",
   "scripts": {
