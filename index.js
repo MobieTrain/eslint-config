@@ -16,11 +16,11 @@ module.exports = {
   rules: {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
-    "no-redeclare": "off",
-    "@typescript-eslint/no-redeclare": ["error"],
-    "indent": "off",
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': ['error'],
+    'indent': 'off',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
     'no-unused-vars': 'off',
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',
@@ -49,7 +49,7 @@ module.exports = {
     'no-mixed-operators': 'off',
 
     // TODO: Create tickets and check each rule
-    "@typescript-eslint/no-use-before-define": ["warn"],
+    '@typescript-eslint/no-use-before-define': ['warn'],
     'no-useless-constructor': 'warn',
     'no-bitwise': 'warn',
     'no-buffer-constructor': 'warn',
