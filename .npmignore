@@ -107,3 +107,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+###############################
+###############################
+
+.github/
+.nvmrc
+cloudbuild.yml
