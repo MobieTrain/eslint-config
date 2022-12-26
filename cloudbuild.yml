@@ -4,4 +4,4 @@ steps:
     args: ['run', 'artifactregistry-login', '--', '--repo-config', '.npmrc', '--credential-config', '.npmrc']
   - id: publish
     name: gcr.io/cloud-builders/npm
-    args: ['run', 'publish']
+    args: ['publish']
