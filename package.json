@@ -4,9 +4,9 @@
   "description": "Sharable eslint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "artifactregistry-login": "npx google-artifactregistry-auth"
   },
-  "author": "Mobietrain",
+  "author": "MobieTrain",
   "license": "ISC",
   "repository": {
     "url": "git@github.com:MobieTrain/eslint-config.git"
