@@ -4,5 +4,6 @@ module.exports = {
   ],
   rules: {
     'react/jsx-pascal-case': ['error', { allowNamespace: true }],
+    'no-mixed-operators': 'off',
   }
 }
