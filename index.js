@@ -27,6 +27,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.test.ts', '**/*.spec.ts'] }],
     '@typescript-eslint/no-namespace': 'off',
+    'no-void': ['warn', { allowAsStatement: true }],
 
     'curly': ['error', 'all'],
     'no-tabs': ['error', { 'allowIndentationTabs': true }],
@@ -70,7 +71,6 @@ module.exports = {
     'no-await-in-loop': 'warn',
     'default-case': 'warn',
     'no-return-await': 'warn',
-    'no-void': 'warn',
     'no-restricted-globals': 'warn',
     'no-underscore-dangle': 'warn',
     'no-continue': 'warn',
