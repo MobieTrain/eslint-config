@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/MobieTrain/eslint-config/compare/v3.1.0...v3.2.0) (2023-03-06)
+
+
+### Features
+
+* adding allowAsStatement to no-void rule. ([#15](https://github.com/MobieTrain/eslint-config/issues/15)) ([8e94049](https://github.com/MobieTrain/eslint-config/commit/8e940497c376f7fe1fdabf40a65b3812b8a38929))
+
 ## [3.1.0](https://github.com/MobieTrain/eslint-config/compare/v3.0.0...v3.1.0) (2023-01-26)
 
 
