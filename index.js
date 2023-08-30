@@ -14,6 +14,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'no-undef': 'off',
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     'no-redeclare': 'off',
