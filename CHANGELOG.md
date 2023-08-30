@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.1](https://github.com/MobieTrain/eslint-config/compare/v3.4.0...v3.4.1) (2023-08-30)
+
+
+### Miscellaneous Chores
+
+* release 3.4.1 ([6451ef1](https://github.com/MobieTrain/eslint-config/commit/6451ef18a902c71480a8b93580ebc92678bd1d2e))
+
 ## [3.4.0](https://github.com/MobieTrain/eslint-config/compare/v3.3.0...v3.4.0) (2023-08-18)
 
 
