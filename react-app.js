@@ -3,25 +3,25 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended'
+    'plugin:jsx-a11y/recommended',
   ],
   env: {
     browser: true,
     jest: true,
   },
-  plugins: [
-    'react-refresh',
-    'jsx-a11y'
-  ],
+  plugins: ['react-refresh', 'jsx-a11y'],
   rules: {
     'camelcase': 'error',
     'class-methods-use-this': 'warn',
     'no-mixed-operators': 'off',
     'no-restricted-exports': 'warn',
-    'jsx-a11y/alt-text': [2, {
-      'elements': ['img', 'object', 'area', 'input[type=\"image\"]'],
-      'img': ['Media', 'animated.img'],
-    }],
+    'jsx-a11y/alt-text': [
+      2,
+      {
+        elements: ['img', 'object', 'area', 'input[type="image"]'],
+        img: ['Media', 'animated.img'],
+      },
+    ],
     'jsx-a11y/aria-role': 'warn',
     'jsx-a11y/control-has-associated-label': 'warn',
     'jsx-a11y/label-has-associated-control': 'warn',
@@ -38,9 +38,10 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'react-refresh/only-export-components': 'warn',
-    'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.test.tsx', '**/setupTests.ts'] }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.tsx', '**/setupTests.ts'] }],
     'import/order': 'warn',
-    '@typescript-eslint/naming-convention': ['warn',
+    '@typescript-eslint/naming-convention': [
+      'warn',
       {
         selector: 'default',
         format: ['camelCase'],
@@ -68,7 +69,7 @@ module.exports = {
         format: null,
         filter: {
           regex: '[a-z0-9]+(?:-[a-z0-9]+)*',
-          match: true
+          match: true,
         },
       },
     ],
@@ -79,9 +80,10 @@ module.exports = {
     '@typescript-eslint/no-misused-promises': [
       'error',
       {
-        'checksVoidReturn': {
-          'arguments': false,
-          'attributes': false,
+        checksVoidReturn: {
+          arguments: false,
+          attributes: false,
+          properties: false,
         },
       },
     ],
@@ -95,4 +97,4 @@ module.exports = {
       version: 'detect',
     },
   },
-}
+};
