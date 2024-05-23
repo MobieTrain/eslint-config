@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/MobieTrain/eslint-config/compare/v3.4.1...v4.0.0) (2024-05-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* update npm dependencies to latest versions ([#20](https://github.com/MobieTrain/eslint-config/issues/20))
+
+### Features
+
+* update npm dependencies to latest versions ([#20](https://github.com/MobieTrain/eslint-config/issues/20)) ([64cf1eb](https://github.com/MobieTrain/eslint-config/commit/64cf1eb0ff8f224c79a892835c00828baeefc2dd))
+
 ## [3.4.1](https://github.com/MobieTrain/eslint-config/compare/v3.4.0...v3.4.1) (2023-08-30)
 
 
